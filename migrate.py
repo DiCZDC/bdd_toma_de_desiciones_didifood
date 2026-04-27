@@ -223,7 +223,8 @@ def factory_conductores(cantidad):
 
 def factory_pedidos(cantidad):
     metodos_pago_ids = [1, 2, 3]
-    fecha_base = datetime(2024, 1, 1, 9, 0, 0)
+    fecha_base = datetime(2021, 1, 1, 9, 0, 0)
+    fecha_hoy = datetime.now()
     pedidos = []
 
     random.seed(126)
@@ -234,7 +235,7 @@ def factory_pedidos(cantidad):
         id_conductor = random.randint(1, 120)
         id_estatus = random.choices([1, 2, 3, 4, 5, 6, 7, 8, 9], weights=[8, 12, 14, 10, 16, 30, 4, 3, 3], k=1)[0]
 
-        fecha_pedido = fecha_base + timedelta(days=random.randint(0, 450), minutes=random.randint(0, 1440))
+        fecha_pedido = fecha_base + timedelta(days=random.randint(0, (fecha_hoy - fecha_base).days), minutes=random.randint(0, 1440))
 
         hora_recogida = None
         hora_entrega = None
@@ -574,5 +575,3 @@ def poblar_base_datos_postgres():
 if __name__ == '__main__':
     poblar_base_datos_postgres()
 
-
-    
