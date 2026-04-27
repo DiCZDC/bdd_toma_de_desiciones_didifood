@@ -19,7 +19,83 @@ RESTAURANTES = [
     (12, 'Vegetalia', 'Vegetariana', 'Calle Reforma 55', 'Oaxaca', 'OAX', '9511111012', 'rest012@gmail.com', 8.6, 'Activo'),
     (13, 'Los Comales', 'Mexicana', 'Mercado 20 de Nov 1', 'Oaxaca', 'OAX', '9511111013', 'rest013@gmail.com', 9.3, 'Activo'),
     (14, 'Subway Oaxaca', 'Americana', 'Calle Porfirio Díaz 200', 'Oaxaca', 'OAX', '9511111014', 'rest014@gmail.com', 7.5, 'Activo'),
-    (15, 'Don Pancho', 'Mariscos', 'Av. Hidalgo 90', 'Oaxaca', 'OAX', '9511111015', 'rest015@gmail.com', 8.9, 'Activo')
+    (15, 'Don Pancho', 'Mariscos', 'Av. Hidalgo 90', 'Oaxaca', 'OAX', '9511111015', 'rest015@gmail.com', 8.9, 'Activo'),
+    (16, 'Mar y Tierra', 'Mariscos', 'Calle Morelos 145', 'Oaxaca', 'OAX', '9511111016', 'rest016@gmail.com', 8.8, 'Activo'),
+    (17, 'La Toscana', 'Italiana', 'Av. Niños Héroes 230', 'Oaxaca', 'OAX', '9511111017', 'rest017@gmail.com', 9.0, 'Activo'),
+    (18, 'Wok Express', 'Asiática', 'Calle Valerio Trujano 312', 'Oaxaca', 'OAX', '9511111018', 'rest018@gmail.com', 8.3, 'Activo'),
+    (19, 'Antojitos Lupita', 'Mexicana', 'Calle Murguía 67', 'Oaxaca', 'OAX', '9511111019', 'rest019@gmail.com', 8.6, 'Activo'),
+    (20, 'La Parrilla Norteña', 'Carnes', 'Av. Símbolos Patrios 520', 'Oaxaca', 'OAX', '9511111020', 'rest020@gmail.com', 8.9, 'Activo'),
+    (21, 'Sabor Istmeño', 'Oaxaqueña', 'Calle Zaragoza 189', 'Oaxaca', 'OAX', '9511111021', 'rest021@gmail.com', 9.1, 'Activo'),
+    (22, 'Bistro Central', 'Internacional', 'Calle Constitución 140', 'Oaxaca', 'OAX', '9511111022', 'rest022@gmail.com', 8.4, 'Activo'),
+    (23, 'Ramen House', 'Japonesa', 'Av. Juárez 410', 'Oaxaca', 'OAX', '9511111023', 'rest023@gmail.com', 8.7, 'Activo'),
+    (24, 'El Patio Verde', 'Vegetariana', 'Calle Abasolo 98', 'Oaxaca', 'OAX', '9511111024', 'rest024@gmail.com', 8.5, 'Activo'),
+    (25, 'Taquería Don Chuy', 'Mexicana', 'Calle Rayón 255', 'Oaxaca', 'OAX', '9511111025', 'rest025@gmail.com', 8.2, 'Activo'),
+    (26, 'Pasta e Vino', 'Italiana', 'Av. Universidad 670', 'Oaxaca', 'OAX', '9511111026', 'rest026@gmail.com', 8.9, 'Activo'),
+    (27, 'La Cabaña Grill', 'Americana', 'Blvd. Eduardo Vasconcelos 880', 'Oaxaca', 'OAX', '9511111027', 'rest027@gmail.com', 8.1, 'Activo'),
+    (28, 'Cocina del Valle', 'Oaxaqueña', 'Calle Allende 175', 'Oaxaca', 'OAX', '9511111028', 'rest028@gmail.com', 9.2, 'Activo'),
+    (29, 'Deli Sandwich', 'Americana', 'Av. Heroico Colegio Militar 333', 'Oaxaca', 'OAX', '9511111029', 'rest029@gmail.com', 7.9, 'Activo'),
+    (30, 'Dulce Aroma Café', 'Cafetería', 'Calle Reforma 260', 'Oaxaca', 'OAX', '9511111030', 'rest030@gmail.com', 8.6, 'Activo'),
+    (31, 'Casa Mezquite', 'Mexicana', 'Calle Xicoténcatl 142', 'Oaxaca', 'OAX', '9511111031', 'rest031@gmail.com', 8.8, 'Activo'),
+    (32, 'Trattoria Nonna', 'Italiana', 'Av. Benito Juárez 512', 'Oaxaca', 'OAX', '9511111032', 'rest032@gmail.com', 9.1, 'Activo'),
+    (33, 'Pacific Roll', 'Japonesa', 'Calle Manuel Doblado 77', 'Oaxaca', 'OAX', '9511111033', 'rest033@gmail.com', 8.6, 'Activo'),
+    (34, 'Parrilla del Centro', 'Carnes', 'Av. Morelos 610', 'Oaxaca', 'OAX', '9511111034', 'rest034@gmail.com', 8.7, 'Activo'),
+    (35, 'La Esquina del Taco', 'Mexicana', 'Calle Armenta y López 33', 'Oaxaca', 'OAX', '9511111035', 'rest035@gmail.com', 8.4, 'Activo'),
+    (36, 'Green Bowl', 'Vegetariana', 'Calle Independencia 204', 'Oaxaca', 'OAX', '9511111036', 'rest036@gmail.com', 8.9, 'Activo'),
+    (37, 'Café Monte Albán', 'Cafetería', 'Av. Hidalgo 370', 'Oaxaca', 'OAX', '9511111037', 'rest037@gmail.com', 8.5, 'Activo'),
+    (38, 'Costa Azul', 'Mariscos', 'Blvd. Guadalupe Hinojosa 120', 'Oaxaca', 'OAX', '9511111038', 'rest038@gmail.com', 9.0, 'Activo'),
+    (39, 'Burger House', 'Americana', 'Calle Las Casas 158', 'Oaxaca', 'OAX', '9511111039', 'rest039@gmail.com', 8.0, 'Activo'),
+    (40, 'Sabores del Istmo', 'Oaxaqueña', 'Calle Matamoros 219', 'Oaxaca', 'OAX', '9511111040', 'rest040@gmail.com', 9.2, 'Activo'),
+    (41, 'Wok & Noodles', 'Asiática', 'Av. Universidad 455', 'Oaxaca', 'OAX', '9511111041', 'rest041@gmail.com', 8.3, 'Activo'),
+    (42, 'La Terraza Bistro', 'Internacional', 'Calle García Vigil 620', 'Oaxaca', 'OAX', '9511111042', 'rest042@gmail.com', 8.6, 'Activo'),
+    (43, 'Antojo Criollo', 'Mexicana', 'Calle Crespo 96', 'Oaxaca', 'OAX', '9511111043', 'rest043@gmail.com', 8.7, 'Activo'),
+    (44, 'Río Grill', 'Carnes', 'Av. Símbolos Patrios 745', 'Oaxaca', 'OAX', '9511111044', 'rest044@gmail.com', 8.8, 'Activo'),
+    (45, 'Dolce Caffè', 'Cafetería', 'Calle Constitución 288', 'Oaxaca', 'OAX', '9511111045', 'rest045@gmail.com', 8.9, 'Activo'),
+    (46, 'La Ruta del Sabor', 'Mexicana', 'Av. Independencia 715', 'Oaxaca', 'OAX', '9511111046', 'rest046@gmail.com', 8.7, 'Activo'),
+    (47, 'Casa del Mar', 'Mariscos', 'Calle Morelos 88', 'Oaxaca', 'OAX', '9511111047', 'rest047@gmail.com', 9.0, 'Activo'),
+    (48, 'Forno Italiano', 'Italiana', 'Av. Juárez 520', 'Oaxaca', 'OAX', '9511111048', 'rest048@gmail.com', 8.8, 'Activo'),
+    (49, 'Taquitos El Compa', 'Mexicana', 'Calle Mina 210', 'Oaxaca', 'OAX', '9511111049', 'rest049@gmail.com', 8.3, 'Activo'),
+    (50, 'Nori Sushi Bar', 'Japonesa', 'Calle Abasolo 330', 'Oaxaca', 'OAX', '9511111050', 'rest050@gmail.com', 8.9, 'Activo'),
+    (51, 'Brasa Norte', 'Carnes', 'Av. Universidad 910', 'Oaxaca', 'OAX', '9511111051', 'rest051@gmail.com', 8.6, 'Activo'),
+    (52, 'Bowl Garden', 'Vegetariana', 'Calle Reforma 187', 'Oaxaca', 'OAX', '9511111052', 'rest052@gmail.com', 8.5, 'Activo'),
+    (53, 'Café Alameda', 'Cafetería', 'Av. Hidalgo 490', 'Oaxaca', 'OAX', '9511111053', 'rest053@gmail.com', 8.4, 'Activo'),
+    (54, 'La Olla Oaxaqueña', 'Oaxaqueña', 'Calle Allende 260', 'Oaxaca', 'OAX', '9511111054', 'rest054@gmail.com', 9.1, 'Activo'),
+    (55, 'Urban Burgers', 'Americana', 'Blvd. Vasconcelos 410', 'Oaxaca', 'OAX', '9511111055', 'rest055@gmail.com', 8.0, 'Activo'),
+    (56, 'Sazón del Barrio', 'Mexicana', 'Calle Crespo 141', 'Oaxaca', 'OAX', '9511111056', 'rest056@gmail.com', 8.8, 'Activo'),
+    (57, 'Marea Alta', 'Mariscos', 'Av. Símbolos Patrios 620', 'Oaxaca', 'OAX', '9511111057', 'rest057@gmail.com', 8.7, 'Activo'),
+    (58, 'Pizzería Vesubio', 'Italiana', 'Calle Rayón 305', 'Oaxaca', 'OAX', '9511111058', 'rest058@gmail.com', 8.6, 'Activo'),
+    (59, 'Rincón del Ramen', 'Japonesa', 'Av. Benito Juárez 705', 'Oaxaca', 'OAX', '9511111059', 'rest059@gmail.com', 8.8, 'Activo'),
+    (60, 'Parrilla 57', 'Carnes', 'Calle Murguía 280', 'Oaxaca', 'OAX', '9511111060', 'rest060@gmail.com', 8.9, 'Activo'),
+    (61, 'Verde Vivo', 'Vegetariana', 'Calle Porfirio Díaz 420', 'Oaxaca', 'OAX', '9511111061', 'rest061@gmail.com', 8.7, 'Activo'),
+    (62, 'Coffee Lab Oaxaca', 'Cafetería', 'Av. Independencia 845', 'Oaxaca', 'OAX', '9511111062', 'rest062@gmail.com', 8.5, 'Activo'),
+    (63, 'El Comal Istmeño', 'Oaxaqueña', 'Calle Zaragoza 244', 'Oaxaca', 'OAX', '9511111063', 'rest063@gmail.com', 9.2, 'Activo'),
+    (64, 'Grill House 24', 'Americana', 'Av. Universidad 1020', 'Oaxaca', 'OAX', '9511111064', 'rest064@gmail.com', 8.1, 'Activo'),
+    (65, 'Antojitos del Sur', 'Mexicana', 'Calle Las Casas 299', 'Oaxaca', 'OAX', '9511111065', 'rest065@gmail.com', 8.4, 'Activo'),
+    (66, 'Puerto Fresco', 'Mariscos', 'Av. Ferrocarril 330', 'Oaxaca', 'OAX', '9511111066', 'rest066@gmail.com', 8.8, 'Activo'),
+    (67, 'Trattoria Venezia', 'Italiana', 'Calle Constitución 512', 'Oaxaca', 'OAX', '9511111067', 'rest067@gmail.com', 9.0, 'Activo'),
+    (68, 'Sakura Roll', 'Japonesa', 'Calle García Vigil 715', 'Oaxaca', 'OAX', '9511111068', 'rest068@gmail.com', 8.7, 'Activo'),
+    (69, 'Fuego y Carbón', 'Carnes', 'Blvd. Tecnológico 980', 'Oaxaca', 'OAX', '9511111069', 'rest069@gmail.com', 8.9, 'Activo'),
+    (70, 'Huerto Urbano', 'Vegetariana', 'Calle Xicoténcatl 188', 'Oaxaca', 'OAX', '9511111070', 'rest070@gmail.com', 8.6, 'Activo'),
+    (71, 'Café Nativo', 'Cafetería', 'Av. Juárez 640', 'Oaxaca', 'OAX', '9511111071', 'rest071@gmail.com', 8.8, 'Activo'),
+    (72, 'Moles y Sabores', 'Oaxaqueña', 'Calle Matamoros 378', 'Oaxaca', 'OAX', '9511111072', 'rest072@gmail.com', 9.3, 'Activo'),
+    (73, 'Route 66 Burgers', 'Americana', 'Av. Heroico Colegio Militar 520', 'Oaxaca', 'OAX', '9511111073', 'rest073@gmail.com', 7.9, 'Activo'),
+    (74, 'La Casa del Taco', 'Mexicana', 'Calle Armenta y López 120', 'Oaxaca', 'OAX', '9511111074', 'rest074@gmail.com', 8.5, 'Activo'),
+    (75, 'Bahía Azul', 'Mariscos', 'Av. Morelos 845', 'Oaxaca', 'OAX', '9511111075', 'rest075@gmail.com', 9.0, 'Activo'),
+    (76, 'Pasta Toscana', 'Italiana', 'Calle Reforma 640', 'Oaxaca', 'OAX', '9511111076', 'rest076@gmail.com', 8.7, 'Activo'),
+    (77, 'Tokyo Street', 'Japonesa', 'Calle Manuel Doblado 204', 'Oaxaca', 'OAX', '9511111077', 'rest077@gmail.com', 8.6, 'Activo'),
+    (78, 'Asador del Valle', 'Carnes', 'Av. Hidalgo 910', 'Oaxaca', 'OAX', '9511111078', 'rest078@gmail.com', 8.8, 'Activo'),
+    (79, 'Raíz Verde', 'Vegetariana', 'Calle Independencia 299', 'Oaxaca', 'OAX', '9511111079', 'rest079@gmail.com', 8.9, 'Activo'),
+    (80, 'Tostado Café', 'Cafetería', 'Av. Benito Juárez 780', 'Oaxaca', 'OAX', '9511111080', 'rest080@gmail.com', 8.4, 'Activo'),
+    (81, 'Tradición del Istmo', 'Oaxaqueña', 'Calle Crespo 265', 'Oaxaca', 'OAX', '9511111081', 'rest081@gmail.com', 9.1, 'Activo'),
+    (82, 'Big Bites', 'Americana', 'Blvd. Guadalupe Hinojosa 330', 'Oaxaca', 'OAX', '9511111082', 'rest082@gmail.com', 8.0, 'Activo'),
+    (83, 'El Fogoncito Mixteco', 'Mexicana', 'Calle Abasolo 410', 'Oaxaca', 'OAX', '9511111083', 'rest083@gmail.com', 8.6, 'Activo'),
+    (84, 'Costa Dorada', 'Mariscos', 'Av. Universidad 1180', 'Oaxaca', 'OAX', '9511111084', 'rest084@gmail.com', 8.9, 'Activo'),
+    (85, 'Nonna Mia', 'Italiana', 'Calle Rayón 402', 'Oaxaca', 'OAX', '9511111085', 'rest085@gmail.com', 9.0, 'Activo'),
+    (86, 'Nippon Express', 'Japonesa', 'Calle Mina 366', 'Oaxaca', 'OAX', '9511111086', 'rest086@gmail.com', 8.5, 'Activo'),
+    (87, 'La Estancia Grill', 'Carnes', 'Av. Símbolos Patrios 890', 'Oaxaca', 'OAX', '9511111087', 'rest087@gmail.com', 8.7, 'Activo'),
+    (88, 'Semilla Kitchen', 'Vegetariana', 'Calle Constitución 366', 'Oaxaca', 'OAX', '9511111088', 'rest088@gmail.com', 8.8, 'Activo'),
+    (89, 'Origen Café', 'Cafetería', 'Av. Independencia 980', 'Oaxaca', 'OAX', '9511111089', 'rest089@gmail.com', 8.6, 'Activo'),
+    (90, 'Cocina Zapoteca', 'Oaxaqueña', 'Calle Morelos 520', 'Oaxaca', 'OAX', '9511111090', 'rest090@gmail.com', 9.2, 'Activo'),
+
 ]
 PRODUCTOS = [
     (1, 1, 'Pizza Margherita', 'Principal', 120, 'Disponible'),
@@ -111,7 +187,98 @@ PRODUCTOS = [
     (87, 15, 'Filete de Pescado', 'Principal', 195, 'Disponible'),
     (88, 15, 'Aguachile', 'Principal', 175, 'Disponible'),
     (89, 15, 'Michelada', 'Bebida', 85, 'Disponible'),
-    (90, 15, 'Agua de Coco', 'Bebida', 45, 'Disponible')
+    (90, 15, 'Agua de Coco', 'Bebida', 45, 'Disponible'),
+    (91, 16, 'Camarones Empanizados', 'Principal', 210, 'Disponible'),
+    (92, 16, 'Pulpo a las Brasas', 'Principal', 245, 'Disponible'),
+    (93, 16, 'Filete al Ajo', 'Principal', 195, 'Disponible'),
+    (94, 16, 'Tostadas de Atún', 'Entrada', 125, 'Disponible'),
+    (95, 16, 'Caldo de Mariscos', 'Entrada', 140, 'Disponible'),
+    (96, 16, 'Limonada Mineral', 'Bebida', 45, 'Disponible'),
+    (97, 17, 'Fettuccine Alfredo', 'Principal', 165, 'Disponible'),
+    (98, 17, 'Ravioles de Ricotta', 'Principal', 175, 'Disponible'),
+    (99, 17, 'Pizza Cuatro Quesos', 'Principal', 155, 'Disponible'),
+    (100, 17, 'Bruschettas', 'Entrada', 95, 'Disponible'),
+    (101, 17, 'Minestrone', 'Entrada', 85, 'Disponible'),
+    (102, 17, 'Panna Cotta', 'Postre', 80, 'Disponible'),
+    (103, 18, 'Pollo Teriyaki', 'Principal', 150, 'Disponible'),
+    (104, 18, 'Arroz Frito Especial', 'Principal', 140, 'Disponible'),
+    (105, 18, 'Noodles con Res', 'Principal', 155, 'Disponible'),
+    (106, 18, 'Rollitos Primavera', 'Entrada', 90, 'Disponible'),
+    (107, 18, 'Dumplings al Vapor', 'Entrada', 95, 'Disponible'),
+    (108, 18, 'Té Jazmín', 'Bebida', 35, 'Disponible'),
+    (109, 19, 'Enchiladas Suizas', 'Principal', 125, 'Disponible'),
+    (110, 19, 'Flautas de Pollo', 'Principal', 115, 'Disponible'),
+    (111, 19, 'Pozole Rojo', 'Principal', 135, 'Disponible'),
+    (112, 19, 'Guacamole con Totopos', 'Entrada', 85, 'Disponible'),
+    (113, 19, 'Sopes Sencillos', 'Entrada', 70, 'Disponible'),
+    (114, 19, 'Agua de Tamarindo', 'Bebida', 30, 'Disponible'),
+    (115, 20, 'Rib Eye 350g', 'Principal', 320, 'Disponible'),
+    (116, 20, 'Picaña', 'Principal', 290, 'Disponible'),
+    (117, 20, 'Brochetas Mixtas', 'Principal', 210, 'Disponible'),
+    (118, 20, 'Chistorra Asada', 'Entrada', 110, 'Disponible'),
+    (119, 20, 'Papas Gajo', 'Entrada', 75, 'Disponible'),
+    (120, 20, 'Naranjada', 'Bebida', 40, 'Disponible'),
+    (121, 21, 'Mole Coloradito', 'Principal', 190, 'Disponible'),
+    (122, 21, 'Tasajo Encebollado', 'Principal', 210, 'Disponible'),
+    (123, 21, 'Empanadas de Amarillo', 'Principal', 145, 'Disponible'),
+    (124, 21, 'Sopa de Guías', 'Entrada', 95, 'Disponible'),
+    (125, 21, 'Quesillo Asado', 'Entrada', 85, 'Disponible'),
+    (126, 21, 'Atole de Maíz', 'Bebida', 45, 'Disponible'),
+    (127, 22, 'Salmón a la Plancha', 'Principal', 240, 'Disponible'),
+    (128, 22, 'Pechuga Rellena', 'Principal', 210, 'Disponible'),
+    (129, 22, 'Risotto de Hongos', 'Principal', 185, 'Disponible'),
+    (130, 22, 'Carpaccio', 'Entrada', 130, 'Disponible'),
+    (131, 22, 'Sopa del Día', 'Entrada', 85, 'Disponible'),
+    (132, 22, 'Limonada de Pepino', 'Bebida', 50, 'Disponible'),
+    (133, 23, 'Ramen Tonkotsu', 'Principal', 185, 'Disponible'),
+    (134, 23, 'Katsu Curry', 'Principal', 170, 'Disponible'),
+    (135, 23, 'Yakimeshi', 'Principal', 140, 'Disponible'),
+    (136, 23, 'Takoyaki', 'Entrada', 120, 'Disponible'),
+    (137, 23, 'Tempura Mixta', 'Entrada', 135, 'Disponible'),
+    (138, 23, 'Ramune', 'Bebida', 55, 'Disponible'),
+    (139, 24, 'Bowl Mediterráneo', 'Principal', 135, 'Disponible'),
+    (140, 24, 'Tacos de Coliflor', 'Principal', 115, 'Disponible'),
+    (141, 24, 'Lasaña Vegetal', 'Principal', 145, 'Disponible'),
+    (142, 24, 'Hummus con Pita', 'Entrada', 95, 'Disponible'),
+    (143, 24, 'Crema de Calabaza', 'Entrada', 80, 'Disponible'),
+    (144, 24, 'Kombucha', 'Bebida', 65, 'Disponible'),
+
+    (145, 25, 'Taco al Pastor', 'Principal', 32, 'Disponible'),
+    (146, 25, 'Taco de Suadero', 'Principal', 34, 'Disponible'),
+    (147, 25, 'Gringa', 'Principal', 65, 'Disponible'),
+    (148, 25, 'Volcán de Pastor', 'Entrada', 58, 'Disponible'),
+    (149, 25, 'Frijoles Charros', 'Entrada', 50, 'Disponible'),
+    (150, 25, 'Agua de Limón con Chía', 'Bebida', 28, 'Disponible'),
+    (151, 26, 'Spaghetti Bolognesa', 'Principal', 160, 'Disponible'),
+    (152, 26, 'Gnocchi al Pesto', 'Principal', 170, 'Disponible'),
+    (153, 26, 'Pizza Prosciutto', 'Principal', 180, 'Disponible'),
+    (154, 26, 'Caprese', 'Entrada', 110, 'Disponible'),
+    (155, 26, 'Focaccia', 'Entrada', 70, 'Disponible'),
+    (156, 26, 'Cannoli', 'Postre', 85, 'Disponible'),
+    (157, 27, 'Cheeseburger Doble', 'Principal', 145, 'Disponible'),
+    (158, 27, 'BBQ Bacon Burger', 'Principal', 155, 'Disponible'),
+    (159, 27, 'Chicken Sandwich', 'Principal', 130, 'Disponible'),
+    (160, 27, 'Aros de Cebolla', 'Entrada', 75, 'Disponible'),
+    (161, 27, 'Mac & Cheese Bites', 'Entrada', 85, 'Disponible'),
+    (162, 27, 'Malteada Vainilla', 'Bebida', 70, 'Disponible'),
+    (163, 28, 'Mole Amarillo', 'Principal', 185, 'Disponible'),
+    (164, 28, 'Chileajo de Cerdo', 'Principal', 195, 'Disponible'),
+    (165, 28, 'Tamales Oaxaqueños', 'Principal', 120, 'Disponible'),
+    (166, 28, 'Tetelas', 'Entrada', 90, 'Disponible'),
+    (167, 28, 'Quesadillas de Flor', 'Entrada', 85, 'Disponible'),
+    (168, 28, 'Tejate', 'Bebida', 50, 'Disponible'),
+    (169, 29, 'Club Sandwich', 'Principal', 120, 'Disponible'),
+    (170, 29, 'Panini de Pavo', 'Principal', 115, 'Disponible'),
+    (171, 29, 'Wrap César', 'Principal', 110, 'Disponible'),
+    (172, 29, 'Papas a la Francesa', 'Entrada', 60, 'Disponible'),
+    (173, 29, 'Ensalada de Atún', 'Entrada', 95, 'Disponible'),
+    (174, 29, 'Té Helado', 'Bebida', 35, 'Disponible'),
+    (175, 30, 'Espresso Doble', 'Bebida', 48, 'Disponible'),
+    (176, 30, 'Moka', 'Bebida', 78, 'Disponible'),
+    (177, 30, 'Chai Latte', 'Bebida', 72, 'Disponible'),
+    (178, 30, 'Bagel de Queso', 'Entrada', 62, 'Disponible'),
+    (179, 30, 'Cheesecake de Frutos Rojos', 'Postre', 92, 'Disponible'),
+    (180, 30, 'Galleta de Avena', 'Postre', 38, 'Disponible')
 ]
 ESTATUS = [
     (1, 'Pendiente','El pedido ha sido recibido pero aún no se ha confirmado.'),
@@ -135,12 +302,18 @@ def factory_usuarios(cantidad):
     nombres = [
         'Fernanda', 'Valentina', 'Adriana', 'Ana', 'Carlos', 'Andres', 'Patricia',
         'Juan', 'Karla', 'Sofia', 'Mario', 'Elena', 'Gabriela', 'Diego', 'Miguel',
-        'Daniel', 'Rosa', 'Ricardo', 'Paola', 'Eduardo'
+        'Daniel', 'Rosa', 'Ricardo', 'Paola', 'Eduardo',
+        'Camila', 'Jose', 'Mariana', 'Luis', 'Andrea', 'Fernando', 'Ximena',
+        'Sebastian', 'Alejandra', 'Raul', 'Natalia', 'Hugo', 'Daniela', 'Javier',
+        'Monica', 'Alberto', 'Renata', 'Oscar', 'Lucia', 'Tomas'
     ]
     apellidos = [
         'Jimenez', 'Gonzalez', 'Reyes', 'Guerrero', 'Lopez', 'Vega', 'Diaz',
         'Morales', 'Rodriguez', 'Flores', 'Mendoza', 'Torres', 'Sanchez',
-        'Ruiz', 'Castillo', 'Ortega', 'Salinas', 'Rivera', 'Ramos', 'Cruz'
+        'Ruiz', 'Castillo', 'Ortega', 'Salinas', 'Rivera', 'Ramos', 'Cruz',
+        'Hernandez', 'Navarro', 'Aguilar', 'Pineda', 'Vazquez', 'Campos', 'Delgado',
+        'Rojas', 'Cabrera', 'Mejia', 'Nunez', 'Ibarra', 'Fuentes', 'Solis',
+        'Molina', 'Acosta', 'Escobar', 'Cortes', 'Padilla', 'Espinoza'
     ]
 
     random.seed(42)
@@ -438,7 +611,7 @@ def insertar_usuarios(cursor):
             VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);
         '''
 
-    usuarios = factory_usuarios(cantidad=300)
+    usuarios = factory_usuarios(cantidad=30000)
     cursor.executemany(consulta_insercion, usuarios)
     print(f"Éxito: Se han insertado {cursor.rowcount} registros en la tabla 'usuarios'.")
 
@@ -448,7 +621,7 @@ def insertar_conductores(cursor):
             VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
         '''
 
-    conductores = factory_conductores(cantidad=120)
+    conductores = factory_conductores(cantidad=200)
     cursor.executemany(consulta_insercion, conductores)
     print(f"Éxito: Se han insertado {cursor.rowcount} registros en la tabla 'conductores'.")
 
@@ -476,7 +649,7 @@ def insertar_pedidos(cursor):
             VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
         '''
 
-    pedidos = factory_pedidos(cantidad=100000)
+    pedidos = factory_pedidos(cantidad=1000000)
     cursor.executemany(consulta_insercion, pedidos)
     print(f"Éxito: Se han insertado {cursor.rowcount} registros en la tabla 'pedidos'.")
 
@@ -487,7 +660,7 @@ def insertar_detalle_pedido(cursor):
             VALUES (%s, %s, %s, %s, %s, %s);
         '''
 
-    detalle = factory_detalle_pedido(cantidad_pedidos=100000)
+    detalle = factory_detalle_pedido(cantidad_pedidos=1000000)
     cursor.executemany(consulta_insercion, detalle)
     print(f"Éxito: Se han insertado {cursor.rowcount} registros en la tabla 'detalle_pedido'.")
 
@@ -498,7 +671,7 @@ def insertar_resenias_restaurante(cursor):
             VALUES (%s, %s, %s, %s, %s, %s);
         '''
 
-    resenias = factory_resenias_restaurante(cantidad=2000)
+    resenias = factory_resenias_restaurante(cantidad=20000)
     cursor.executemany(consulta_insercion, resenias)
     print(f"Éxito: Se han insertado {cursor.rowcount} registros en la tabla 'resenias_restaurante'.")
 
@@ -509,7 +682,7 @@ def insertar_resenias_conductor(cursor):
             VALUES (%s, %s, %s, %s, %s, %s);
         '''
 
-    resenias = factory_resenias_conductor(cantidad=16000)
+    resenias = factory_resenias_conductor(cantidad=100000)
     cursor.executemany(consulta_insercion, resenias)
     print(f"Éxito: Se han insertado {cursor.rowcount} registros en la tabla 'resenias_conductor'.")
 
@@ -520,7 +693,7 @@ def insertar_estados_conductor(cursor):
             VALUES (%s, %s, %s, %s);
         '''
 
-    estados = factory_estados_conductor(cantidad_conductores=120)
+    estados = factory_estados_conductor(cantidad_conductores=200)
     cursor.executemany(consulta_insercion, estados)
     print(f"Éxito: Se han insertado {cursor.rowcount} registros en la tabla 'estados_conductor'.")
 
